@@ -1,0 +1,13 @@
+{
+	"Check if user is root": {
+		"prefix": "check-root",
+	 	"body": [
+	 		"if [ $(id -u) -eq 0 ]; then",
+	 		"   echo 'You are running this script as root'",
+            "   echo 'You should run this script as your regular user'",
+            "   exit",
+            "fi"
+	 	],
+	 	"description": "Check if user is root"
+	 }
+}

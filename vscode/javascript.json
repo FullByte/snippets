@@ -1,7 +1,10 @@
 {
 	"For Loop": {
 		"prefix": ["ff-for"],
-		"body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
+		"body": [
+			"for (const ${2:element} of ${1:array}) {",
+			"\t$0",
+			"}"],
 		"description": "A for loop."
 	}
 }
